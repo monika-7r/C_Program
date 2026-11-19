@@ -1,0 +1,308 @@
+Program 1: Print a Square Star Pattern 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<n; c++) 
+printf("*"); 
+Program 2: Print a Right-Angled Triangle Star Pattern 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<=r; c++) 
+printf("*"); 
+Program 3: Print an Inverted Right-Angled Triangle Star Pattern 
+#include<stdio.h> 
+int main() 
+{ 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+for (c=0; c<n-r; c++) 
+printf("*"); 
+} 
+}  
+Program 4: Print a Triangle Star Pattern 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<2*row-1; c++) 
+printf("*"); 
+Program 5: Print a Star Pattern with Increasing Spaces 
+#include<stdio.h> 
+int main() 
+{ 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+for (c=0; c<=r-1; c++) 
+printf(" "); 
+for (c=0; c<n; c++) 
+printf("*"); 
+} 
+} 
+Program 6: Print a Right-Aligned Star Pattern 
+#include<stdio.h> 
+int main() 
+{ int n,r,c; 
+ scanf("%d",&n); 
+ for (r=0; r<n; r++,printf("\n"))  
+ { for (c=0; c<n-r-1; c++) 
+   printf(" "); 
+  for (c=0; c<n ; c++) 
+      printf("*"); 
+ } 
+} 
+ 
+Program 7: Print a Right-Aligned Right-Angled Triangle Star Pattern 
+#include<stdio.h> 
+int main() 
+{ int n,r,c; 
+ scanf("%d",&n); 
+ for (r=0; r<n; r++,printf("\n"))  
+ { for (c=0; c<n-r-1; c++) 
+   printf(" "); 
+  for (c=0; c<=r; c++) 
+      printf("*"); 
+ } 
+} 
+ 
+Program 8: Print a Double-Sided Triangle Star Pattern 
+#include<stdio.h> 
+int main() 
+{ int n,r,c; 
+ scanf("%d",&n); 
+ for (r=0; r<n; r++,printf("\n"))  
+ { for (c=0; c<=r; c++) 
+   printf("*"); 
+  for (c=0; c<n-r-1; c++) 
+      printf(" "); 
+  for (c=0; c<=r; c++) 
+      printf("*"); 
+ } 
+} 
+ 
+Program 9: Print a Square Pattern Using 1 
+#include<stdio.h> 
+int main() 
+{ int n,r,c; 
+ scanf("%d",&n); 
+ for (r=0; r<n; r++,printf("\n"))  
+ { for (c=0; c<n; c++) 
+   printf("1"); 
+ } 
+}  
+ 
+Program 10: Print a Square Pattern with Row Numbers 
+#include<stdio.h> 
+int main() 
+{ int n,r,c; 
+ scanf("%d",&n); 
+ for (r=0; r<n; r++,printf("\n"))  
+ { for (c=0; c<n ; c++) 
+   printf("%d",r+1); 
+ } 
+} 
+Program 11: Print a Square Pattern with Column Numbers 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<n ; c++) 
+printf("%d",c+1); 
+Program 12: Print an Increasing Number Triangle 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<=r; c++) 
+printf("%d",c+1); 
+Program 13: Print a Decreasing Number Pattern 
+#include<stdio.h> 
+int main() 
+{ 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+for (c=0; c<n-r; c++)  
+printf("%d ",n-c); 
+} 
+}  
+Program 14: Print a Continuous Number Triangle 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c,d=1; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<=r; c++) 
+printf("%d ",d++); 
+Program 15: Print an Increasing Number Pattern with Decreasing Rows 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<n-r; c++) 
+printf("%d ",c+1); 
+Program 16: Print a Continuous Number Pattern with Two-Digit Formatting 
+#include<stdio.h> 
+int main() 
+{ 
+int n,r,c,d=1; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+}  
+for (c=0; c<n; c++) 
+printf("%02d ",d++); 
+Program 17: Print a Number Triangle with Repeated Row Numbers 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,r,c; 
+scanf("%d",&n); 
+for (r=0; r<n; r++,printf("\n"))  
+{ 
+} 
+for (c=0; c<=r; c++) 
+printf("%d",r+1); 
+Program 18: Read and Display Array Elements 
+#include <stdio.h> 
+int main() 
+{ 
+} 
+int n,i; 
+scanf("%d",&n); 
+int arr[n]; 
+for (i=0; i<n; i++) 
+scanf("%d",&arr[i]); 
+for (i=0; i<n; i++) 
+printf("%d ",arr[i]); 
+Program 19: Find the Sum of Array Elements 
+#include <stdio.h> 
+int main() 
+{ 
+} 
+int n,i,sum=0; 
+scanf("%d",&n); 
+int arr[n]; 
+for (i=0; i<n; i++) 
+{ 
+} 
+scanf("%d",&arr[i]); 
+sum=sum+arr[i]; 
+printf("Sum of elements: %d ",sum); 
+Program 20: Find the Average of Array Elements 
+#include <stdio.h> 
+int main() 
+{ 
+} 
+int n,i,sum=0; 
+scanf("%d",&n); 
+int arr[n]; 
+for (i=0; i<n; i++) 
+{ 
+} 
+scanf("%d",&arr[i]); 
+sum=sum+arr[i]; 
+float avg=(float)sum/n; 
+printf("Avg of elements: %.2f",avg); 
+Program 21: Find the Maximum Element in an Array 
+#include <stdio.h> 
+int main() 
+{ int n,i,max; 
+ scanf("%d",&n); 
+ int arr[n]; 
+ for (i=0; i<n; i++) 
+ {scanf("%d",&arr[i]); 
+ } 
+ max=arr[0]; 
+ for(i=1;i<n;i++) 
+ { 
+     if(arr[i]>max) 
+     max=arr[i]; 
+ } 
+ printf("Maximum of element: %d",max); 
+}  
+ 
+Program 22: Find the Minimum Element in an Array 
+#include <stdio.h> 
+int main() 
+{ int n,i,min; 
+ scanf("%d",&n); 
+ int arr[n]; 
+ for (i=0; i<n; i++) 
+ {scanf("%d",&arr[i]); 
+ } 
+ min=arr[0]; 
+ for(i=1;i<n;i++) 
+ { 
+     if(arr[i]<min) 
+     min=arr[i]; 
+} 
+printf("Maximum of element: %d",min); 
+}  
+Program 23: Read and Display a Two-Dimensional Array (Matrix) 
+#include<stdio.h> 
+int main() 
+{  
+} 
+int row,col,i,j; 
+scanf("%d%d",&row,&col); 
+int arr[row][col]; 
+for(i=0;i<row;i++) 
+{ 
+} 
+for(j=0;j<col;j++) 
+scanf("%d",&arr[i][j]); 
+printf("Output is:\n"); 
+for(i=0;i<row;i++,printf("\n")) 
+{ 
+} 
+for(j=0;j<col;j++) 
+printf("%d ",arr[i][j]); 
+ 
+ 
+ 
+ 
+ 
