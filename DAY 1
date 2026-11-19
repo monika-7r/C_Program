@@ -1,0 +1,37 @@
+//INTEGER DISPLAY
+#include<stdio.h>
+int main()
+{ int a;
+   scanf("%d",&a);
+   printf("%d",a);
+}
+//FLOAT DISPLAY
+#include<stdio.h>
+int main()
+{
+    float a; 
+    scanf("%f",&a);
+    printf("%f",a);
+}
+//ADDITION
+#include<stdio.h>
+int main()
+{
+    int a,b,sum=0;
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum is : %d",sum);
+}
+//FIND THE UNIT DIGIT OF NUMBERS
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d",n%10);
+    
+}
+
+
+
+
