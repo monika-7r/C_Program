@@ -1,0 +1,192 @@
+Program 1: Two numbers are equal or not 
+#include <stdio.h> 
+int main() 
+{ 
+}  
+int a+b; 
+scanf("%d%d",&a,&b); 
+if (a==b) 
+printf("Equal"); 
+else 
+printf("Not Equal"); 
+Program 2: write a c program to check the given number is positive or 
+negative or zero 
+#include <stdio.h> 
+int main() 
+{ 
+int a; 
+scanf("%d",&a); 
+if (a>0) 
+printf("Number is %d :Positive",a); 
+else if (a<0) 
+printf("Number is %d :Negative",a); 
+else 
+} 
+printf("Number is 0"); 
+Program 3: greatest of two numbers 
+#include <stdio.h> 
+int main() 
+{ 
+int a,b; 
+scanf("%d%d",&a,&b); 
+if (a>b) 
+printf("Greatest is =%d",a); 
+else 
+}  
+printf("Greatest is =%d",b); 
+Program 4:Divisible by 3 or Not 
+#include <stdio.h> 
+int main() 
+{ 
+} 
+int a; 
+scanf("%d",&a); 
+if (a % 3 == 0) 
+printf ("Divisible by 3 "); 
+else 
+printf("Not Divisible by 3 and Remainder is %d",a%3); 
+Program 5:greatest of three numbers 
+#include <stdio.h> 
+int main() 
+{ 
+int a,b,c; 
+scanf("%d%d%d",&a,&b,&c); 
+if ((a>b) && (a>c)) 
+printf("Greatest is =%d",a); 
+else if (b>c)  
+printf("Greatest is =%d",b); 
+else 
+} 
+printf("Greatest is =%d",c); 
+Program 6:To check whether the given number is even or not 
+#include <stdio.h> 
+int main() 
+{ 
+}  
+int a; 
+scanf("%d",&a); 
+if (a%2==0) 
+printf("Even"); 
+else 
+printf("Odd"); 
+Program 7: To check whether the given year is leap year or not 
+#include<stdio.h> 
+int main() 
+{ 
+}  
+int y; 
+scanf("%d",&y); 
+if ((y%400==0) ||(y%4==0 && y%100 !=0)) 
+printf("leap year"); 
+else 
+printf("Not a Leap year"); 
+Program 8:Check Divisibility by 3 and 5 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int a; 
+scanf("%d",&a); 
+if (a%3==0) 
+printf("Hi"); 
+if (a%5==0) 
+printf("Hello"); 
+Program 9:Using for loop 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int i,n; 
+scanf("%d",&n); 
+for (i=1; i<=n; i++) 
+printf("%d\n",i); 
+Program 10: to find sum of n numbers and get starting and ending range 
+from users 
+#include<stdio.h> 
+int main() 
+{ 
+int a,b,sum=0,i; 
+scanf("%d%d",&a,&b); 
+for (i=a; i<=b; i++) 
+sum=sum+i; 
+printf("%d",sum); 
+}  
+Program 11:factorial of given number 
+#include<stdio.h> 
+int main() 
+{ 
+}  
+int i,n,fact=1; 
+scanf("%d",&n); 
+for (i=1; i<=n; i++) 
+fact=fact*i; 
+printf("%d",fact); 
+Program 12:factors of the given number 
+#include<stdio.h> 
+int main() 
+{ 
+}  
+int n,i; 
+scanf("%d",&n); 
+for(i=1; i<=n/2; i++) //n/2 to reduce the number of iterations 
+{ 
+} 
+if (n%i==0) 
+printf("%d ",i); 
+printf("%d",n); 
+Program 13: to print multiplication table 
+#include<stdio.h> 
+int main() 
+{ 
+}  
+int t,n,i; 
+scanf("%d%d",&t,&n); 
+for (i=1; i<=n; i++) 
+printf("%d*%d=%d ",i,t,i*t); 
+Program 14:prime number  
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,i,c=0; 
+scanf("%d",&n); 
+if (n==1) 
+printf("Neither prime nor composite number"); 
+for (i=2; i<=n/2; i++) 
+{ 
+} 
+if (n%2==0) 
+{ 
+} 
+if (c==0) 
+c++; 
+printf("Not a prime Number"); 
+break; 
+printf("prime Number"); 
+Program 15:Count the number of digits 
+#include <stdio.h> 
+int main() 
+{ 
+int n,c=0; 
+scanf("%d",&n); 
+while (n!=0) 
+{ 
+} 
+n=n/10; 
+c++; 
+printf("%d",c); 
+} 
+Program 16: to find sum of the given number using while loop 
+#include<stdio.h> 
+int main() 
+{ 
+} 
+int n,sum=0,d; 
+scanf("%d",&n); 
+while(n!=0) 
+{ 
+} 
+d=n%10; 
+sum = sum+d; 
+n=n/10; 
+printf("%d",sum);  
